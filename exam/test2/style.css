@@ -44,12 +44,27 @@ body {
 }
 
 .section .sectionTop dl {
+    width: 25%;
     height: 100%;
     text-align: center;
 }
 
-.section .sectionTop dl dt {
+.section .sectionTop dl dt i {
     border: 1px solid #ccc;
     border-radius: 50%;
     padding: 5px 8px;
+}
+
+.section .sectionMain {
+    width: 100%;
+    height: 300px;
+}
+
+.section .sectionMain div {
+    width: 100%;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    line-height: 300px;
+    display: none;
 }
