@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+}
+
+.header ul .liLast {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    width: 100%;
+}
+
+.section .sectionTop {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section .sectionTop dl {
+    height: 100%;
+    text-align: center;
+}
+
+.section .sectionTop dl dt {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 5px 8px;
+}
